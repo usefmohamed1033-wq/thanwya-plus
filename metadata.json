@@ -1,0 +1,8 @@
+{
+  "name": "Thanawy Plus 2027",
+  "description": "Thanawy Plus 2027 - Modern High School Study Platform for Egyptian Students with Firebase Auth, Cloud Sync, Curriculum, Official Exams, Formulas, Pomodoro, and Audio Recitations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

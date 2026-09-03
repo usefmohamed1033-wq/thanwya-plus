@@ -1,0 +1,20 @@
+{
+  "rules": {
+    "users": {
+      "read": "auth != null",
+      "write": "auth != null && auth.uid == resource.id"
+    },
+    "tasks": {
+      "read": "auth != null",
+      "write": "auth != null && auth.uid == request.resource.data.userId"
+    },
+    "mistakes": {
+      "read": "auth != null",
+      "write": "auth != null && auth.uid == request.resource.data.userId"
+    },
+    "progress": {
+      "read": "auth != null",
+      "write": "auth != null && auth.uid == resource.id"
+    }
+  }
+}
